@@ -3,7 +3,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   background-color: #333333;
 
   .container-icon {
@@ -29,34 +29,37 @@
 
     ion-input {
       border-color: #0d0d0d;
-      font-size: 14px;
+      font-size: 16px;
+      color: var(--ion-color-text-primary);
     }
   }
 
-  .item{
-   --background: #333333;
+  .item-login {
+    --background: #333333;
+    border-bottom-style: dotted;
+    color: var(--ion-color-text-primary);
+    padding-top: 32px;
   }
 
-  .options {
+  .options-login {
     display: flex;
-    padding: 10px 0px 0px 20px;
     justify-content: space-between;
+    color: var(--ion-color-text-primary);
 
     h2 {
-      font-size: 10px;
+      font-size: 14px;
+      padding-top: 32px;
       margin: 0px;
-    }
-
-    span {
-      color: var(--ion-color-primary);
     }
   }
 
   ion-button {
-    padding-left: 20px;
     width: 100%;
+    height: 58px;
+    color: var(--ion-color-text-primary);
     --background: var(--ion-color-primary);;
     --background-activated: var(--ion-color-primary);;
-    margin-top: 20px;
+    margin-top: 32px;
+    --border-radius: 12px;
   }
 }
