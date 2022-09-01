@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+  background-color: var(--ion-color-background);
+
+  .logo {
+    fill: var(--ion-color-primary);
+    width: 32px;
+    height: 25px;
+  }
+
+  h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  .add-button {
+    background: var(--ion-color-secondary);
+    padding: 8px;
+    border-radius: 50%;
+  }
+}
